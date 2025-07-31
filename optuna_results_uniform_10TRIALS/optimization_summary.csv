@@ -1,0 +1,2 @@
+Npde,Nbc,description,strategy,n_trials,best_objective_value,final_error_u,final_error_v,final_error_p,final_avg_error,best_n_neurons,best_n_layers,best_activation,best_lr,best_weight_decay,best_weight_pde,best_weight_pressure_ref
+1000,100,Dataset pequeño,uniform,10,21.884833340949598,19.02517884465484,29.20806205068293,19.371612120077373,22.53495100513838,80,5,gelu,0.0015085912200805372,1.6868607164281905e-06,69.65539649430255,18058.878716561252

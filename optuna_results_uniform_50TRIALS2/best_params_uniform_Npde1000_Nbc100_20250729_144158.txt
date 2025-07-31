@@ -1,0 +1,15 @@
+Optimización - UNIFORM
+Configuración: Npde=1000, Nbc=100
+Mejor valor objetivo: 20.296908
+Número de trials: 50
+
+Mejores hiperparámetros:
+  n_neurons: 80
+  n_hidden_layers: 6
+  activation: gelu
+  learning_rate: 0.004068392368878553
+  weight_decay: 2.183935228011631e-06
+  scheduler_gamma: 0.9997575508785774
+  weight_pde: 64.58569570195388
+  weight_pressure_ref: 22298.39097065214
+  epochs: 6500

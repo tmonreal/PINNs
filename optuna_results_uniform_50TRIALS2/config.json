@@ -1,0 +1,35 @@
+{
+  "Re": 100.0,
+  "domain_bounds": {
+    "xi": 0.0,
+    "xf": 1.0,
+    "yi": 0.0,
+    "yf": 1.0
+  },
+  "device": "cuda:0",
+  "optimization_config": {
+    "strategy": "uniform",
+    "n_trials": 50,
+    "study_name": "pinn_uniform_optimization",
+    "results_dir": "optuna_results_uniform"
+  },
+  "dataset_configs": [
+    {
+      "Npde": 1000,
+      "Nbc": 100,
+      "description": "Dataset peque\u00f1o"
+    }
+  ],
+  "final_training_config": {
+    "epochs": 10000,
+    "early_stopping_patience": 1000,
+    "save_models": true,
+    "generate_plots": true
+  },
+  "analysis_config": {
+    "compare_with_baseline": true,
+    "generate_comparison_plots": true,
+    "save_detailed_results": true
+  },
+  "timestamp": "2025-07-29T14:01:36.175156"
+}
