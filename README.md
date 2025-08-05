@@ -18,14 +18,14 @@ El problema consiste en modelar el comportamiento del fluido dentro de una cavid
 Cada TP se encuentra documentado y ejecutado en su respectivo notebook.
 
 
-### [TP N°1 – Puntos de colocación](tp1.ipynb)
+### [TP N°1 – Puntos de colocación](TP1.ipynb)
 
 * Definición de puntos de colocación para los residuos de PDE y condiciones de borde.
 * Inclusión de puntos con datos rotulados.
 
 ---
 
-### [TP N°2 – Modelado PINN](tp2.ipynb)
+### [TP N°2 – Modelado PINN](TP2.ipynb)
 
 * Implementación completa de un modelo vanilla PINN.
 * Entrenamiento sin datos rotulados y evaluación contra ground-truth.
@@ -33,14 +33,14 @@ Cada TP se encuentra documentado y ejecutado en su respectivo notebook.
 
 ---
 
-### [TP N°3 – Estrategias de muestreo](tp3.ipynb)
+### [TP N°3 – Estrategias de muestreo](TP3.ipynb)
 
 * Comparación entre muestreo uniforme, LHS y RAD.
 * Análisis de convergencia y rendimiento con distintos tamaños de dataset.
 
 ---
 
-### [TP N°4 – Problema inverso](tp4.ipynb)
+### [TP N°4 – Problema inverso](TP4.ipynb)
 
 * Estimación del número de Reynolds a partir de datos parciales.
 * Evaluación del impacto del ruido y de la región de muestreo.
